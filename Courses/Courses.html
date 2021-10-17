@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Courses</title>
+            <link rel="stylesheet" href="courses.css">
+    </head>
+    <body>
+        <div id="about-logo">
+        <img src="/images-3/logo.png" width="100px" height="100px">
+        </div>
+<!--courses-->
+<section id="courses">
+    <div class="container course-row">
+        <div class="course-left-col">
+          <div class="course-text">
+            <h1>Our Most Popular Courses!</h1><br>
+            <strong>
+            <ul>
+                <li>Spanish</li><br>
+                <li>Mandarin</li><br>
+                <li>Arabic</li><br>
+                <li>French</li><br>
+                <li>German</li><br>
+                <li>And Many More .  .  .</li><br>
+            </ul>
+        </strong><br>
+            <h3>Learn langueses at a much faster rate and make it fun!</h3>
+          
+          </div>
+        </div>
+        <div class="course-right-col">
+          <img src="/images-3/Foreign-Languages-Graphic-900x900.png">
+        </div>
+    </div>
+  </section>
+  <!---Footer-->
+<section id="footer">
+    <div class="container footer-row">
+      <hr>
+      <div class="footer-left-col">
+        <div class="footer-links">
+          <div class="link-title">
+            <h4>Product</h4>
+            <small>Our Plan</small><br>
+            <small>Free Trial</small>
+          </div>
+          <div class="link-title">
+            <h4>About Us</h4>
+            <small>Request Demo</small><br>
+            <small>FAQs</small>
+          </div>
+          <div class="link-title">
+            <h4>Support</h4>
+            <small>Features</small><br>
+            <small>Contact Us</small>
+          </div>
+          <div class="link-title">
+            <h4>Explore</h4>
+            <small>Find a nonprofit</small><br>
+            <small>Coporate Solution</small>
+          </div>
+        </div>
+      </div>
+      <div class="footer-right-col">
+         <div class="footer-info">
+           <div class="copyright-text">
+             <small>support@gmail.com</small><br>
+             <small>copyright 2020 <br>Kasper Learning</small>
+           </div>
+           <div class="footer-logo">
+             <img src="/images-3/logo.png">
+           </div>
+         </div>
+      </div>
+    </div>
+    </section>
+    <!--social-icons-->
+    <div class="social-icons">
+      <img src="/images-3/facebook.png">
+      <img src="/images-3/instagram.png">
+      <img src="/images-3/twitter.png">
+      <img src="/images-3/linkedin.png">
+    </div>
+        <nav id="sideNav">
+            <ul>
+              <li><a href="/index.html">HOME</a></li>
+              <li><a href="/About Us/About_Us.html">ABOUT US</a></li>
+              <li><a href="/Courses/Courses.html">COURSES</a></li>
+              <li><a href="/Contact/contact.html">CONTACT</a></li>
+            </ul>
+          </nav>
+          <img src="/images-3/menu.png" id="menuBtn">
+          <script>
+
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+        
+            sideNav.style.right = "-250px";
+            menuBtn.onclick = function(){
+                  if(sideNav.style.right == "-250px"){
+                      sideNav.style.right = "0";
+                  }
+                  else{
+                    sideNav.style.right = "-250px"
+                  }
+            }
+        
+        </script>
+    </body>
+</html>
